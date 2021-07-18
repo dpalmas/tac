@@ -236,3 +236,5 @@ console.log("Lista de cidades: " + cidades);
 
 Esta API disponibiliza uma lista de usuários, que podem ser obtidos de forma paginada. Fazer uma página HTML, para exibir a lista dos usuários e os links de paginação. Criar o TypeScript para consumir os dados da API e atualizar a página HTML conforme a paginação selecionada pelo usuário. Mostrar os dados dos objetos oriundos da API (nome, e-mail e avatar).
 Siga o exemplo de consumo de uma [API](https://jsfiddle.net/ricardosobjak/2dpkjo6h/).
+
+[Consumo de API REST](https://github.com/dpalmas/tac/tree/main/lista_de_usuarios)
