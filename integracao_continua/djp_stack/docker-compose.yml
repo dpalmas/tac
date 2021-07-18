@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  myweb:
+    build: ../djpwebserver
+    image: djpwebserver:tag
+    ports:
+      - "1080:80"
+
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: 123456
+
+  joomla:
+    image: joomla
+    restart: always
+    container_name: joomla
+    links:
+      - joomladb:mysql
+    ports:
+      - 8080:80
+    environment:
+      JOOMLA_DB_HOST: joomladb
+      JOOMLA_DB_PASSWORD: 123456
+
+  joomladb:
+    image: "mysql:5.6"
+    container_name: "joomladb_mysql"
+    restart: "always"
+    #command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: "123456"
+
+joomladb:
+    image: "mysql:5.6"
+    container_name: "joomladb_mysql"
+    restart: "always"
+    #command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: "123456"
+      MYSQL_DATABASE: joomla
+      MYSQL_USER: utfpr
+      MYSQL_PASSWORD: "123456"
+    volumes:
+      - joomladb_lib:/var/lib/mysql
+      - joomladb_conf:/etc
+
+volumes:
+  joomladb_lib:
+  joomladb_conf:
