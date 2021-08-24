@@ -238,3 +238,4 @@ Esta API disponibiliza uma lista de usuários, que podem ser obtidos de forma p
 Siga o exemplo de consumo de uma [API](https://jsfiddle.net/ricardosobjak/2dpkjo6h/).
 
 [Consumo de API REST](https://github.com/dpalmas/tac/tree/main/lista_de_usuarios)
+[Integração Contínua - Docker & Jenkins](https://github.com/dpalmas/tac/tree/master/integracao_continua)
