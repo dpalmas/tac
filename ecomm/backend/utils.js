@@ -26,7 +26,7 @@ export const isAuth = (req, res, next) => {
       process.env.JWT_SECRET || 'somethingsecret',
       (err, decode) => {
         if (err) {
-          res.status(401).send({ message: 'Invalid Token' });
+          res.status(401).send({ message: 'Token Inválido' });
         } else {
           req.user = decode;
           next();
@@ -34,28 +34,28 @@ export const isAuth = (req, res, next) => {
       }
     );
   } else {
-    res.status(401).send({ message: 'No Token' });
+    res.status(401).send({ message: 'Token não encontrado' });
   }
 };
 export const isAdmin = (req, res, next) => {
   if (req.user && req.user.isAdmin) {
     next();
   } else {
-    res.status(401).send({ message: 'Invalid Admin Token' });
+    res.status(401).send({ message: 'Token de Admin Inválido' });
   }
 };
 export const isSeller = (req, res, next) => {
   if (req.user && req.user.isSeller) {
     next();
   } else {
-    res.status(401).send({ message: 'Invalid Seller Token' });
+    res.status(401).send({ message: 'Token de Vendedor Inválido' });
   }
 };
 export const isSellerOrAdmin = (req, res, next) => {
   if (req.user && (req.user.isSeller || req.user.isAdmin)) {
     next();
   } else {
-    res.status(401).send({ message: 'Invalid Admin/Seller Token' });
+    res.status(401).send({ message: 'Token de Admin/Vendedor Inválido' });
   }
 };
 
@@ -85,7 +85,7 @@ export const payOrderEmailTemplate = (order) => {
     <tr>
     <td>${item.name}</td>
     <td align="center">${item.qty}</td>
-    <td align="right"> $${item.price.toFixed(2)}</td>
+    <td align="right"> R$${item.price.toFixed(2)}</td>
     </tr>
   `
     )
@@ -94,19 +94,19 @@ export const payOrderEmailTemplate = (order) => {
   <tfoot>
   <tr>
   <td colspan="2">Valor Item:</td>
-  <td align="right"> $${order.itemsPrice.toFixed(2)}</td>
+  <td align="right"> R$${order.itemsPrice.toFixed(2)}</td>
   </tr>
   <tr>
   <td colspan="2">Valor Taxa:</td>
-  <td align="right"> $${order.taxPrice.toFixed(2)}</td>
+  <td align="right"> R$${order.taxPrice.toFixed(2)}</td>
   </tr>
   <tr>
   <td colspan="2">Valor Entrega:</td>
-  <td align="right"> $${order.shippingPrice.toFixed(2)}</td>
+  <td align="right"> R$${order.shippingPrice.toFixed(2)}</td>
   </tr>
   <tr>
   <td colspan="2"><strong>Valor Total:</strong></td>
-  <td align="right"><strong> $${order.totalPrice.toFixed(2)}</strong></td>
+  <td align="right"><strong> R$${order.totalPrice.toFixed(2)}</strong></td>
   </tr>
   <tr>
   <td colspan="2">Método Pagamento:</td>
