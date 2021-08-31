@@ -28,7 +28,7 @@ export default function ProductScreen(props) {
 
   useEffect(() => {
     if (successReviewCreate) {
-      window.alert('Review Submitted Successfully');
+      window.alert('Revisão Submetida com Sucesso');
       setRating('');
       setComment('');
       dispatch({ type: PRODUCT_REVIEW_CREATE_RESET });
@@ -100,8 +100,8 @@ export default function ProductScreen(props) {
                   </li>
                   <li>
                     <div className="row">
-                      <div>Price</div>
-                      <div className="price">${product.price}</div>
+                      <div>Preço</div>
+                      <div className="price">R${product.price}</div>
                     </div>
                   </li>
                   <li>

@@ -46,7 +46,6 @@ export default function ProductEditScreen(props) {
   }, [product, dispatch, productId, successUpdate, props.history]);
   const submitHandler = (e) => {
     e.preventDefault();
-    // TODO: dispatch update product
     dispatch(
       updateProduct({
         _id: productId,
@@ -186,7 +185,7 @@ export default function ProductEditScreen(props) {
             <div>
               <label></label>
               <button className="primary" type="submit">
-                Update
+                Atualizar
               </button>
             </div>
           </>
