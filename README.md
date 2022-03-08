@@ -20,7 +20,7 @@ Sumário
 =================
 <!--ts-->
   * [Filtrar](#Filtrar)
-  * [18° Como aplicar transformações sobre os itens de um array?](#18°-como-aplicar-transformacoes-sobre-os-itens-de-um-array-?)
+  * [18° Como aplicar transformações sobre os itens de um array?](#18-como-aplicar-transformacoes-sobre-os-itens-de-um-array-?)
 <!--te-->
 
 **1° Como instalar o TypeScript? :pencil:**
@@ -187,7 +187,7 @@ numeros.forEach(element => {
 ```
 
 **Filtrar**
-=================
+-----------
 
 ``` typescript
 function ehMaior(valor) {
@@ -199,7 +199,7 @@ console.log("Teste de valor : " + numeros);
 ```
 
 **18° Como aplicar transformações sobre os itens de um array?**
-=================
+-----------
 
 ``` typescript
 // Mapeando array de números para um array de raízes quadradas
