@@ -16,6 +16,8 @@
   </a>
 </p>
 
+Table of contents
+=================
 <!--ts-->
   * [Filtrar](#Filtrar)
 <!--te-->
@@ -184,6 +186,7 @@ numeros.forEach(element => {
 ```
 
 **Filtrar**
+=================
 
 ``` typescript
 function ehMaior(valor) {
