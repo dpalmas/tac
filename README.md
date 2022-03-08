@@ -16,7 +16,7 @@
   </a>
 </p>
 
-## [Filtrar?](#Filtrar)
+## [Filtrar](#Filtrar)
 
 **1° Como instalar o TypeScript? :pencil:**
 
