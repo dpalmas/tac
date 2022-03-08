@@ -16,10 +16,11 @@
   </a>
 </p>
 
-Table of contents
+Sumário
 =================
 <!--ts-->
   * [Filtrar](#Filtrar)
+  * [18° Como aplicar transformações sobre os itens de um array?](#18° Como aplicar transformações sobre os itens de um array?)
 <!--te-->
 
 **1° Como instalar o TypeScript? :pencil:**
@@ -198,6 +199,7 @@ console.log("Teste de valor : " + numeros);
 ```
 
 **18° Como aplicar transformações sobre os itens de um array? :pencil:**
+=================
 
 ``` typescript
 // Mapeando array de números para um array de raízes quadradas
