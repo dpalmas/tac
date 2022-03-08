@@ -20,7 +20,7 @@ Sumário
 =================
 <!--ts-->
   * [Filtrar](#Filtrar)
-  * [Como aplicar transformações sobre os itens de um array](#como-aplicar-transformacoes-sobre-os-itens-de-um-array)
+  * [Como aplicar transformacoes sobre os itens de um array](#como-aplicar-transformacoes-sobre-os-itens-de-um-array)
 <!--te-->
 
 **1° Como instalar o TypeScript? :pencil:**
@@ -198,7 +198,7 @@ var numeros = [12, 5, 8, 130, 44].filter(ehMaior);
 console.log("Teste de valor : " + numeros);
 ```
 
-**Como aplicar transformações sobre os itens de um array**
+**Como aplicar transformacoes sobre os itens de um array**
 -----------
 
 ``` typescript
