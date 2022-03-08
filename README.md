@@ -16,6 +16,8 @@
   </a>
 </p>
 
+## [17° Como filtrar itens de um array?](17°-como-filtrar-itens-de-um-array-?)
+
 **1° Como instalar o TypeScript? :pencil:**
 
 Precisamos inicialmente instalar a plataforma [Node.js](https://nodejs.org).
