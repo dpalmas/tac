@@ -20,7 +20,7 @@ Sumário
 =================
 <!--ts-->
   * [Filtrar](#Filtrar)
-  * [Como aplicar transformacoes sobre os itens de um array](#como-aplicar-transformacoes-sobre-os-itens-de-um-array)
+  * [Como aplicar transformações sobre os itens de um array](https://github.com/dpalmas/tac/edit/master/README.md#como-aplicar-transforma%C3%A7%C3%B5es-sobre-os-itens-de-um-array)
 <!--te-->
 
 **1° Como instalar o TypeScript? :pencil:**
