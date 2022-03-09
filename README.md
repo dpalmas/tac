@@ -16,12 +16,10 @@
   </a>
 </p>
 
-Sumário
+# Conteúdos
 =================
-<!--ts-->
-  * [Filtrar](#Filtrar)
-  * [Como aplicar transformações sobre os itens de um array](https://github.com/dpalmas/tac/edit/master/README.md#como-aplicar-transforma%C3%A7%C3%B5es-sobre-os-itens-de-um-array)
-<!--te-->
+  - [Filtrar](#Filtrar)
+  - [Como aplicar transformações sobre os itens de um array](https://github.com/dpalmas/tac/edit/master/README.md#como-aplicar-transforma%C3%A7%C3%B5es-sobre-os-itens-de-um-array)
 
 **1° Como instalar o TypeScript? :pencil:**
 
