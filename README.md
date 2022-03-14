@@ -191,7 +191,6 @@ console.log("Teste de valor : " + numeros);
 ```
 
 **18° Como aplicar transformações sobre os itens de um array? :pencil:**
------------
 
 ``` typescript
 // Mapeando array de números para um array de raízes quadradas
