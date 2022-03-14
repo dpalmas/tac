@@ -179,7 +179,7 @@ numeros.forEach(element => {
 });
 ```
 
-## [17° Como filtrar itens de um array?](17°-como-filtrar-itens-de-um-array-?)
+**17° Como filtrar itens de um array? :pencil:**
 
 ``` typescript
 function ehMaior(valor) {
@@ -190,7 +190,7 @@ var numeros = [12, 5, 8, 130, 44].filter(ehMaior);
 console.log("Teste de valor : " + numeros);
 ```
 
-## Como aplicar transformações sobre os itens de um array
+**18° Como aplicar transformações sobre os itens de um array? :pencil:**
 -----------
 
 ``` typescript
