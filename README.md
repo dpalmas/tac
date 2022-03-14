@@ -16,11 +16,6 @@
   </a>
 </p>
 
-# Conteúdos
-=================
-  - [Filtrar](#Filtrar)
-  - [Como aplicar transformações sobre os itens de um array](https://github.com/dpalmas/tac/edit/master/README.md#como-aplicar-transforma%C3%A7%C3%B5es-sobre-os-itens-de-um-array)
-
 **1° Como instalar o TypeScript? :pencil:**
 
 Precisamos inicialmente instalar a plataforma [Node.js](https://nodejs.org).
@@ -184,8 +179,7 @@ numeros.forEach(element => {
 });
 ```
 
-**Filtrar**
------------
+## [17° Como filtrar itens de um array?](17°-como-filtrar-itens-de-um-array-?)
 
 ``` typescript
 function ehMaior(valor) {
